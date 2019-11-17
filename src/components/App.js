@@ -5,7 +5,7 @@ import Movie from "./Movie";
 import Search from "./Search";
 
 
-const MOVIE_API_URL = "https://www.omdbapi.com/?s=home&apikey=4a3b711b";
+const MOVIE_API_URL = "https://www.omdbapi.com/?s=girl&apikey=4a3b711b";
 
 
 const initialState = {
@@ -87,7 +87,7 @@ const App = () => {
       <Header text="React movie app" />
       <Search search={search} />
       <div className="container">
-        <p className="App-intro">Sharing a few of our favourite movies</p>
+        <p className="App-intro">Check our powerful movie search engine</p>
         <div className="movies">
           {loading && !errorMessage ? (
             <span>loading... </span>
