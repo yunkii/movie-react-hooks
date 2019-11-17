@@ -11,11 +11,13 @@ const Movie = ({ movie }) => {
   return (
     <div className="movie">
       <div>
+        <a href={'http://www.imdb.com/title/'+movie.imdbID} target={'_blank'}>
         <img
           alt={`The movie titled: ${movie.Title}`}
           src={poster}
           className="poster"
         />
+        </a>
       </div>
       <h2>{movie.Title}</h2>
       <p>({movie.Year})</p>
