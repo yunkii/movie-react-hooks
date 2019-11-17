@@ -7,6 +7,7 @@ const DEFAULT_PLACEHOLDER_IMAGE =
 const Movie = ({ movie }) => {
   const poster =
     movie.Poster === "N/A" ? DEFAULT_PLACEHOLDER_IMAGE : movie.Poster;
+    console.log(movie)
   return (
     <div className="movie">
       <div>
@@ -18,7 +19,6 @@ const Movie = ({ movie }) => {
       </div>
       <h2>{movie.Title}</h2>
       <p>({movie.Year})</p>
-      <p>{movie.Plot}</p>
     </div>
   );
 };
