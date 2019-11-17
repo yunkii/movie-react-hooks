@@ -1,18 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
 .App {
   text-align: center;
+  background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+  min-height: 100vh;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .App-header {
-  background-color: #282c34;
-  height: 70px;
   display: flex;
+  background-color: black;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(5px + 2vmin);
   color: white;
-  padding: 20px;
   cursor: pointer;
+}
+
+.container {
+  max-width: 1000px;
+  margin:auto;
 }
 
 .spinner {
@@ -21,7 +28,8 @@
 }
 
 .App-intro {
-  font-size: large;
+  font-size: calc(7px + 1vmin);
+  color: white;
 }
 
 /* new css for movie component */
@@ -34,10 +42,12 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  color: white;
 }
 
 .App-header h2 {
-  margin: 0;
+  margin: 10px auto;
+  font-size: 1em;
 }
 
 .add-movies {
@@ -55,36 +65,56 @@
   max-width: 25%;
 }
 
+.movie h2 {
+  font-size: 0.8em;
+}
+
+.movie p {
+  font-size: 0.8em;
+  line-height: 0;
+}
+
+.poster {
+  width: 200px;
+  height: 300px;
+/*  box-shadow: 7px 5px 5px gray;*/
+  border-radius: 10px;
+}
 .errorMessage {
   margin: auto;
   font-weight: bold;
-  color: rgb(161, 15, 15);
+  color: #ff7675;
 }
 
-
+.searchContainer{
+  width: 100%;
+  background-color: #252B43;
+  padding:10px;
+}
 .search {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 10px;
 }
 
 
 input[type="submit"] {
   padding: 5px;
   background-color: transparent;
-  color: black;
-  border: 1px solid black;
+  color: white;
+  border: 1px solid white;
   width: 80px;
   margin-left: 5px;
   cursor: pointer;
+  transition: 0.5s;
+  font-weight: bold;
 }
 
 
 input[type="submit"]:hover {
-  background-color: #282c34;
-  color: antiquewhite;
+  background-color: white;
+  color: #252B43;
 }
 
 

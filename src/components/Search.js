@@ -19,6 +19,7 @@ const Search = (props) => {
   }
 
   return (
+    <div className="searchContainer">
       <form className="search">
         <input
           value={searchValue}
@@ -27,6 +28,7 @@ const Search = (props) => {
         />
         <input onClick={callSearchFunction} type="submit" value="SEARCH" />
       </form>
+    </div>
     );
 }
 
