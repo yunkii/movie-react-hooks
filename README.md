@@ -19,3 +19,5 @@ A movie search app using react hooks 🍿
 ## Dependencies
 
 The project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app) by Facebook. and using [OMDB api](http://www.omdbapi.com/) 
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f0509726-bbb0-4d69-a485-c9b7d2bf49e7/deploy-status)](https://app.netlify.com/sites/dazzling-elion-1970d5/deploys)
