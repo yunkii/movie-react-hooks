@@ -1,5 +1,5 @@
 # Movie-react-hooks 
-
+![MovieReact](https://i.imgur.com/zZqGkW2.png)
 ## Table of Contents
 
 * [Project Purpose](#project-purpose)
@@ -14,7 +14,7 @@ A movie search app using react hooks 🍿
 
 * Clone the project to your machine
 * CD into the folder and run `npm install` and `npm start`
-* Open http://localhost:3000 to view it in the browser.
+* Or you can visit it [here] on Netlify. (https://dazzling-elion-1970d5.netlify.com/)
 
 ## Dependencies
 
