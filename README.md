@@ -12,7 +12,7 @@ A movie search app using react hooks 🍿
 
 ## How To Run the Project
 
-* [Live Demo](https://dazzling-elion-1970d5.netlify.com/).
+* [Live Demo](https://dazzling-elion-1970d5.netlify.com/)
 * Clone the project to your machine
 * CD into the folder and run `npm install` and `npm start`
 
